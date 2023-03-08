@@ -1,0 +1,96 @@
+:root {
+  --yellow: #ffcc01;
+}
+
+/*! media-secreen */
+@media (min-width: 768px) {
+    
+}
+@media (max-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+  .landing {
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuVHju5kYKUI/v1/1200x-1.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  
+}
+/*! media-secreen */
+
+
+.btn-yellow {
+  background-color: var(--yellow);
+}
+.txt-yellow{
+  color: var(--yellow);
+}
+.btn-yellow:hover,
+.btn-yellow:active,
+.btn-yellow:focus {
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.btn-out-none:focus {
+  box-shadow: none;
+}
+/* !start landing */
+.landing {
+  background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuVHju5kYKUI/v1/1200x-1.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.landing .container {
+  height: calc(100vh - 88px);
+}
+.landing .content {
+  width: 380px;
+}
+.landing .content .height {
+  height: 60px;
+}
+.landing .detials{
+    width: 590 px;
+    height: 80px;
+}
+
+.landing .rotate{
+    transform: rotate(-90deg);
+    bottom: 60px;
+    left: 0;
+    animation: mymove 3s infinite;
+    color:var(--yellow);
+    
+}
+.landing .rotate i{
+    margin-right: 15px;
+}
+/* animation scroll */
+@keyframes mymove {
+    0% {bottom: 60px;}
+    50% {bottom: 50px;}
+    100% {bottom: 60px;}
+
+}
+
+/* !End landing */
+/* ?start cpmpany */
+.company .content p{
+  /* width: 500px; */
+}
+
+.center{
+  text-align: center;
+}
+
+.center-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shd-card{
+  box-shadow: inset 0 0 2rem 1px rgb(0 0 0 / 8%)
+}
